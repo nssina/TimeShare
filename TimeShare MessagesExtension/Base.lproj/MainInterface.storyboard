@@ -18,6 +18,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpj-yy-FLJ">
                                 <rect key="frame" x="103" y="249" width="115" height="30"/>
                                 <state key="normal" title="Creat New Event"/>
+                                <connections>
+                                    <action selector="creatNewEvent:" destination="ObA-dk-sSI" eventType="touchUpInside" id="sKW-Xp-jQi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -65,6 +68,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="SSs-II-EFN" id="htQ-et-FJQ"/>
+                                    <outlet property="delegate" destination="SSs-II-EFN" id="DSW-VF-73v"/>
+                                </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oUr-td-Mpj">
                                 <rect key="frame" x="0.0" y="308" width="320" height="162"/>
@@ -91,6 +98,9 @@
                                             <constraint firstAttribute="height" constant="30" id="Jic-xd-QvR"/>
                                         </constraints>
                                         <state key="normal" title="Add Date"/>
+                                        <connections>
+                                            <action selector="addDate:" destination="SSs-II-EFN" eventType="touchUpInside" id="Xhe-0p-wbe"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hh0-tb-N17">
                                         <rect key="frame" x="104" y="0.0" width="36" height="30"/>
@@ -99,6 +109,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="saveSelectedDates:" destination="SSs-II-EFN" eventType="touchUpInside" id="HZG-uR-TbR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -161,6 +174,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="o1X-BU-rwf" id="cHP-pf-nOG"/>
+                                    <outlet property="delegate" destination="o1X-BU-rwf" id="ezc-rf-lR6"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ukw-er-1Qh">
                                 <rect key="frame" x="138" y="478" width="44" height="44"/>
@@ -169,6 +186,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveSelectedDates:" destination="o1X-BU-rwf" eventType="touchUpInside" id="M3y-J9-IzO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
