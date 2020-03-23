@@ -13,6 +13,7 @@
 		D30874AF2428F07700E54858 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30874AE2428F07700E54858 /* MessagesViewController.swift */; };
 		D30874B22428F07700E54858 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30874B02428F07700E54858 /* MainInterface.storyboard */; };
 		D30874B42428F07800E54858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30874B32428F07800E54858 /* Assets.xcassets */; };
+		D30874C02428FAA100E54858 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30874BF2428FAA100E54858 /* EventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D30874B12428F07700E54858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		D30874B32428F07800E54858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D30874B52428F07800E54858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30874BF2428FAA100E54858 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		D30874AD2428F07700E54858 /* TimeShare MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				D30874BF2428FAA100E54858 /* EventViewController.swift */,
 				D30874AE2428F07700E54858 /* MessagesViewController.swift */,
 				D30874B02428F07700E54858 /* MainInterface.storyboard */,
 				D30874B32428F07800E54858 /* Assets.xcassets */,
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D30874AF2428F07700E54858 /* MessagesViewController.swift in Sources */,
+				D30874C02428FAA100E54858 /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +397,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				INFOPLIST_FILE = TimeShare/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinarabiei.TimeShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,7 +412,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				INFOPLIST_FILE = TimeShare/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinarabiei.TimeShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
